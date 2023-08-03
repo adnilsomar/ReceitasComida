@@ -44,10 +44,9 @@ export function SignUp(){
 
       <Form>
 
-        <h1>RocketMovies</h1>
-        <p>Aplicação para acompanhar tudo que assistir</p>
-
-        <h2>Crie sua conta</h2>
+      <h1>Receitas de Comida</h1>
+      <p>Aplicação para fazer anotações de suas receitas preferidas</p>
+      <h2>Crie sua conta</h2>
 
 
         <div className='input'>

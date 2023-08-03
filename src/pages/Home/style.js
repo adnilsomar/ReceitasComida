@@ -35,14 +35,14 @@ justify-content:space-between;
 align-items: center;
 text-align: center;
 
-
 margin-top: 5rem;
 
 padding: 0 13rem;
 
 >h1{
-  font-size: 3.2rem;
+  font-size: 2.8rem;
   white-space: nowrap;
+  color: ${({theme})=> theme.COLORS.ORANGE};
 }
 div{
   width: 20.7rem;
@@ -56,15 +56,15 @@ div{
   align-items: center;
   justify-content: center;
   
-  background-color: ${({theme})=>theme.COLORS.PINK};
+  background-image: linear-gradient(to bottom, #F0E68C, #fc9729, #fffb4f);
   color: ${({theme})=>theme.COLORS.GRAY_400};
   font-size: 1.6rem;
  
   border-radius: 1rem;
 
-.addMovie{
+.addReceit{
 
-  color: ${({theme})=>theme.COLORS.GRAY_400};
+  color: ${({theme})=>theme.COLORS.BACK};
 }
 
 }

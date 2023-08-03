@@ -14,7 +14,7 @@ width: auto;
 margin-right: .8rem;
 margin-bottom: 4rem;
 
-background-color: ${({theme})=> theme.COLORS.BACKGROUND_700};
+background-color: ${({theme})=> theme.COLORS.ORANGE};
 color: ${({theme})=> theme.COLORS.GARY_P};
 font-size: 1.2rem;
 

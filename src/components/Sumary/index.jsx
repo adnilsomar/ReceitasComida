@@ -2,7 +2,6 @@ import { Container } from "./style";
 import{RiStarFill, RiStarLine } from 'react-icons/ri'
 import { Tags } from "../../components/Tags"
 
-
 export function Sumary({data, ...rest}){
 
   const emptyStar = <RiStarLine/>
@@ -74,8 +73,7 @@ export function Sumary({data, ...rest}){
         return null;
     }
   }
-
-
+  
 return(
   <Container {...rest}>
 

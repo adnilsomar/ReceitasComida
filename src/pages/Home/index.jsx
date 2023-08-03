@@ -35,12 +35,12 @@ export function Home(){
       <Header setSearch={setSearch}/>
 
       <ButtonNew>
-        <h1>Meus Filmes</h1>
+        <h1>Minhas receitas</h1>
 
         <div >
         <FiPlus/>
         
-        <Link className="addMovie" to="/new"> Adicionar filme</Link>
+        <Link className="addReceit" to="/new"> Adicionar receita</Link>
         </div>
 
       </ButtonNew>

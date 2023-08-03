@@ -17,8 +17,9 @@ padding: 3rem 13rem;
 border-bottom: 1px solid ${({theme})=> theme.COLORS.GRAY_200};
 
 >h1{
-  color:${({theme})=> theme.COLORS.PINK} ;
+  color:${({theme})=> theme.COLORS.ORANGE_200} ;
   font-size: 2.4rem;
+  width: 45rem;
  
 }
 `;

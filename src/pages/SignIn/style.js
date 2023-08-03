@@ -4,8 +4,7 @@ import background from '../../assets/background.jpg'
 export const Container = styled.div`
   height: 100vh;
   display: flex;
-  
-  
+   
 `;
 
 export const Form = styled.form`

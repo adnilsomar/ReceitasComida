@@ -16,7 +16,7 @@ export function Header({setSearch}){
   return(
     <Container>
 
-      <h1>RocketMovies</h1>
+      <h1>Receitas de comida</h1>
       <Input 
       placeholder="Pesquisar pelo titulo"
       onChange = {(e)=> setSearch(e.target.value)}

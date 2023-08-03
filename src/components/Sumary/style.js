@@ -1,8 +1,5 @@
 import styled from 'styled-components';
 
-
-
-
 export const Container =  styled.div`
 
 width: 100%;
@@ -17,12 +14,14 @@ background-color: ${({theme})=> theme.COLORS.BACKGROUND_700};
 
 >span{
  
-  color: ${({theme})=> theme.COLORS.PINK};
+  color: ${({theme})=> theme.COLORS.ORANGE};
 
 }
 
 div{
-  background-color: ${({theme})=> theme.COLORS.GRAY_400};
+  background-color: ${({theme})=> theme.COLORS.ORANGE_200};
+  color: ${({theme})=> theme.COLORS.BACK};
+  font-weight: 700;
   
 }
 
@@ -36,7 +35,7 @@ div{
 >.titleSumary h1{
 
 font-size: 2.4rem;
-color: ${({theme})=> theme.COLORS.WHITE};
+color: ${({theme})=> theme.COLORS.BEIGE};
 margin-bottom: .8rem;
 
 }
