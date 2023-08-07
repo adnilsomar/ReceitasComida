@@ -43,8 +43,6 @@ export const StyledScrollbars = styled(Scrollbars)`
 .ps__thumb-y {
     background-color: ${({ theme }) => theme.COLORS.PINK} !important;
     border-radius: 5px;
-
-   
     
   }
 
