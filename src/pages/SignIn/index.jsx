@@ -29,7 +29,6 @@ export function SignIn(){
 
         </div>
 
-
         <h2>Faça seu login</h2>
 
         <div className='input'>
@@ -62,7 +61,6 @@ export function SignIn(){
         <Link to="/register">Criar Cuenta</Link>
 
         </div>
-
 
       </Form>
 
