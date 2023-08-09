@@ -2,9 +2,7 @@ import styled from 'styled-components';
 import Scrollbars from 'react-perfect-scrollbar';
 import 'react-perfect-scrollbar/dist/css/styles.css';
 
-
 export const Container = styled.div`
-
 
 
 width: 100%;
