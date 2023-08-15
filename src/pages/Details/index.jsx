@@ -126,10 +126,7 @@ useEffect(()=>{
         data &&
 
       <Main>
-
-        <StyledScrollbars>
        
-
         <Link to="/"><FiArrowLeft/>Voltar</Link>
 
         <Section>
@@ -187,8 +184,6 @@ useEffect(()=>{
 
       
       <Textarea defaultValue = {data.description} />
-    
-      </StyledScrollbars>
 
       <div className='button'>
 
