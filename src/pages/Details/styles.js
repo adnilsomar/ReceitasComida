@@ -1,10 +1,5 @@
 import styled from 'styled-components';
 
-import Scrollbars from 'react-perfect-scrollbar';
-import 'react-perfect-scrollbar/dist/css/styles.css';
-
-
-
 export const Container = styled.div`
 width: 100%;
 height: 100vh;
@@ -37,21 +32,7 @@ padding: 0 13rem 4rem;
   color: ${({theme})=> theme.COLORS.PINK} 
 }
 
-`;
-
-export const StyledScrollbars = styled(Scrollbars)`
-.ps__thumb-y {
-    background-color: ${({ theme }) => theme.COLORS.PINK} !important;
-    border-radius: 5px;
-    
-  }
-
-  .ps__rail-y {
-    background-color: transparent !important;
-  }
-  
-
-  >a{
+>a{
   display: flex;
   align-items: center;
   gap:.8rem;
@@ -59,6 +40,7 @@ export const StyledScrollbars = styled(Scrollbars)`
   font-size: 1.6rem;
   margin-bottom: 2.4rem;
 }
+
 `;
 
 export const Section = styled.div`
