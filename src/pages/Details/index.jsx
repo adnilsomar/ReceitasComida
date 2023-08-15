@@ -127,9 +127,6 @@ useEffect(()=>{
 
       <Main>
 
-        <StyledScrollbars>
-       
-
         <Link to="/"><FiArrowLeft/>Voltar</Link>
 
         <Section>
