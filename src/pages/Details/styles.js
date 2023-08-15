@@ -1,6 +1,4 @@
 import styled from 'styled-components';
-import 'react-perfect-scrollbar/dist/css/styles.css';
-
 
 export const Container = styled.div`
 width: 100%;
@@ -29,7 +27,6 @@ padding: 0 13rem 4rem;
   background-color: ${({theme})=> theme.COLORS.BACKGROUND_900} ;
   color: ${({theme})=> theme.COLORS.BACK} 
 }
-
 >a{
   display: flex;
   align-items: center;
@@ -40,7 +37,6 @@ padding: 0 13rem 4rem;
 }
 
 `;
- 
 
 export const Section = styled.div`
 

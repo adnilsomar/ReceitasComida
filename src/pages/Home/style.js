@@ -3,8 +3,6 @@ import styled from 'styled-components';
 import Scrollbars from 'react-perfect-scrollbar';
 import 'react-perfect-scrollbar/dist/css/styles.css';
 
-
-
 export const Container = styled.div`
 
 width: 100%;
@@ -78,7 +76,7 @@ div:hover{
 export const StyledScrollbars = styled(Scrollbars)`
 
   .ps__thumb-y {
-      background-color: ${({ theme }) => theme.COLORS.ORANGE_200} !important;
+    background-color: ${({ theme }) => theme.COLORS.ORANGE_200} !important;
       border-radius: 5px;
       
       
