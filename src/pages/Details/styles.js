@@ -27,7 +27,22 @@ padding: 0 13rem 4rem;
   background-color: ${({theme})=> theme.COLORS.BACKGROUND_900} ;
   color: ${({theme})=> theme.COLORS.BACK} 
 }
->a{
+
+`;
+
+export const StyledScrollbars = styled(Scrollbars)`
+.ps__thumb-y {
+    background-color: ${({ theme }) => theme.COLORS.PINK} !important;
+    border-radius: 5px;
+    
+  }
+
+  .ps__rail-y {
+    background-color: transparent !important;
+  }
+  
+
+  >a{
   display: flex;
   align-items: center;
   gap:.8rem;

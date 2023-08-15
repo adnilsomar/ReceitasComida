@@ -76,8 +76,8 @@ div:hover{
 export const StyledScrollbars = styled(Scrollbars)`
 
   .ps__thumb-y {
-    background-color: ${({ theme }) => theme.COLORS.ORANGE_200} !important;
-      border-radius: 5px;
+      background-color: ${({ theme }) => theme.COLORS.PINK} !important;
+      border-radius: 5px; 
       
       
     }
