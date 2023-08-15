@@ -45,7 +45,7 @@ export function SignUp(){
       <Form>
 
       <h1>Receitas de Comida</h1>
-      <p>Aplicação para fazer anotações de suas receitas preferidas</p>
+      <p>Aplicação para registrar suas receitas preferidas</p>
       <h2>Crie sua conta</h2>
 
 
