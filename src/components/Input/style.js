@@ -23,7 +23,7 @@ export const Container = styled.div`
     border: 0;
 
     &::placeholder{
-      color: ${({theme})=> theme.COLORS.BACK};
+      color: ${({theme})=> theme.COLORS.BACKGROUND_700};
     }
   
     }

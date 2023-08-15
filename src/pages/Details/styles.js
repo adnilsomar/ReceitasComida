@@ -1,8 +1,5 @@
 import styled from 'styled-components';
-
-import Scrollbars from 'react-perfect-scrollbar';
 import 'react-perfect-scrollbar/dist/css/styles.css';
-
 
 
 export const Container = styled.div`
@@ -17,12 +14,8 @@ grid-template-areas: "header" "content";
 `;
 
 export const Main = styled.div`
-
-
 margin-top: 4rem;
-
 overflow-y: auto;
-
 
 grid-area: content;
 padding: 0 13rem 4rem;
@@ -34,56 +27,41 @@ padding: 0 13rem 4rem;
 
 .button .delete{
   background-color: ${({theme})=> theme.COLORS.BACKGROUND_900} ;
-  color: ${({theme})=> theme.COLORS.PINK} 
+  color: ${({theme})=> theme.COLORS.BACK} 
 }
 
-`;
-
-export const StyledScrollbars = styled(Scrollbars)`
-.ps__thumb-y {
-    background-color: ${({ theme }) => theme.COLORS.PINK} !important;
-    border-radius: 5px;
-
-   
-    
-  }
-
-  .ps__rail-y {
-    background-color: transparent !important;
-  }
-  
-
-  >a{
+>a{
   display: flex;
   align-items: center;
   gap:.8rem;
-  color: ${({theme})=> theme.COLORS.PINK};
+  color: ${({theme})=> theme.COLORS.ORANGE};
   font-size: 1.6rem;
   margin-bottom: 2.4rem;
 }
+
 `;
+ 
 
 export const Section = styled.div`
 
 >h1{
   margin-bottom: 2.4rem;
-
 }
 
 h1 span{
  display: flex;
  align-items: center;
  gap: 1.9rem;
- ;
+ color: ${({theme})=> theme.COLORS.BEIGE};
 
 
 }
 h1 span span{
-  color: ${({theme})=> theme.COLORS.PINK};
+ 
   font-size: 1.8rem ;
   gap: .8rem;
+  color: ${({theme})=> theme.COLORS.ORANGE_100};
 
- 
 }
 >div{
   display: flex;
@@ -95,18 +73,21 @@ h1 span span{
   display: flex;
   gap:.8rem;
   align-items: center;
+  color: ${({theme})=> theme.COLORS.ORANGE};
 }
 >div div img{
   width: 1.6rem;
   height: 1.6rem;
   border-radius: 50%;
+  
 }
 div p span{
   display: flex;
   align-items: center;
   gap: .8rem;
+  color: ${({theme})=> theme.COLORS.ORANGE}
 }
 div p span span{
-  color: ${({theme})=> theme.COLORS.PINK};
+  color: ${({theme})=> theme.COLORS.ORANGE_100};
 }
 `;

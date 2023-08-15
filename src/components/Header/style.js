@@ -1,11 +1,11 @@
 import styled from 'styled-components';
 
 export const Container = styled.header`
-
 grid-area: header;
-
 height: 11rem;
 width: 100%;
+
+
 
 display: flex;
 align-items: center;
@@ -35,10 +35,11 @@ font-size: 1.4rem;
   flex-direction: column;
   align-items: end;
   
-  
 }
 > div strong {
   white-space: nowrap;
+  color:${({theme})=> theme.COLORS.BEIGE}
+
 }
 
 > .image img{
@@ -49,10 +50,7 @@ font-size: 1.4rem;
 }
 
 >div a{
-  color:  ${({theme})=> theme.COLORS.GRAY_100};
-  
-  
-
+  color:  ${({theme})=> theme.COLORS.ORANGE};
 }
 
 `;

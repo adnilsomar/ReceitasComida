@@ -6,7 +6,7 @@ import {FiArrowLeft} from 'react-icons/fi'
 import {TfiTime} from 'react-icons/tfi'
 import{RiStarFill, RiStarLine } from 'react-icons/ri'
 import { Link } from 'react-router-dom'
-import { Container, Main, Section, StyledScrollbars } from "./styles"
+import { Container, Main, Section} from "./styles"
 import { Header } from "../../components/Header"
 import { Tags } from "../../components/Tags"
 import { Button } from  "../../components/Buttons"
@@ -127,9 +127,6 @@ useEffect(()=>{
 
       <Main>
 
-        <StyledScrollbars>
-       
-
         <Link to="/"><FiArrowLeft/>Voltar</Link>
 
         <Section>
@@ -187,13 +184,11 @@ useEffect(()=>{
 
       
       <Textarea defaultValue = {data.description} />
-    
-      </StyledScrollbars>
 
       <div className='button'>
 
       <Button className="delete"
-       title="Excluir filme"
+       title="Excluir prato"
        onClick = {handleRemove}
        />
 

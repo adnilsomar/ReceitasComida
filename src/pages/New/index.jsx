@@ -76,12 +76,12 @@ function handleCancel(){
 
 
       <Link to="/"><FiArrowLeft/>Voltar</Link>
-        <h1>Novo Filme</h1>
+        <h1>Nova receita</h1>
 
         <div className="input">
 
         <Input 
-        placeholder="titulo" 
+        placeholder="Nome do prato" 
         onChange = {e => setTitle(e.target.value)}
         />
 

@@ -14,7 +14,7 @@ background-color: ${({theme})=> theme.COLORS.BACKGROUND_700};
 
 >span{
  
-  color: ${({theme})=> theme.COLORS.ORANGE};
+  color: ${({theme})=> theme.COLORS.ORANGE_100};
 
 }
 
@@ -44,7 +44,7 @@ margin-bottom: .8rem;
   width: 100%;
   font-size: 1.2rem;
   background-color: ${({theme})=> theme.COLORS.BACKGROUND_700};
-  color: ${({theme})=> theme.COLORS.GRAY_P};
+  color: ${({theme})=> theme.COLORS.BEIGE};
   text-align: justify;
 
   margin-top: 1.5rem;
